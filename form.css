@@ -1,0 +1,126 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: "Trebuchet MS", arial;
+}
+	#menu {
+		background: #228B22;
+		text-align: center;
+		padding: 10px;
+		}
+
+		#menu a {
+		color: white;
+		padding: 20px;
+		text-decoration: none;
+		text-transform: uppercase;
+		}
+
+		#menu a:hover {
+		color: green;
+		background: #fff;
+		transition: 1s;
+		}
+
+	#logo {
+		display: flex;
+		margin-left: auto;
+		margin-right: auto;
+		}
+
+	#cabecalho {
+		height: 150px;
+		}
+
+		#cabecalho h1 {
+			text-align: center;
+			margin-top: 45px;
+			font-size: 4em;
+			opacity: 0;
+		}
+
+		#cabecalho h2 {
+			text-align: center;
+			font-size: 1.5em;
+			opacity: 0;
+		}
+
+
+
+#contato {
+	margin-top: 20px;
+	margin-right: auto;
+	margin-left: auto;
+	width: 300px;
+}
+
+p {
+	margin-bottom: 20px;
+	border:  5px dashed #38c421;
+	padding: 20px;
+}
+
+fieldset {
+	padding: 1em;
+	border: 1px solid #ccc;
+	background: #f8f8f8;
+	margin: 1em 0;
+}
+
+legend {
+	font-weight: bold;
+}
+
+label {
+	display: block;
+	cursor: pointer;
+}
+
+input {
+	width: 20em;
+}
+
+textarea {
+	width: 20em;
+	height: 10em;
+}
+
+#rodape {
+		background: #228B22;
+		color: #fff;
+		margin-top: 20px;
+		height: 150px;
+		width: 100%;
+	}
+
+	.contato-rodape {
+		display: flex;
+		float: left;
+		margin-top: 20px;
+		padding-left: 150px;
+		text-align: left;
+		line-height: 1.5em;
+	}
+	
+	.redes {
+		padding-left: 150px;
+	}
+
+	.logo-instagram {
+		width: 40px;
+		height: 40px;
+	}
+
+
+	.redes h4 {
+		text-align: center;
+	}
+
+
+
+	.rodape-texto {
+		padding-top: 130px;	
+		text-align: center;
+	}
